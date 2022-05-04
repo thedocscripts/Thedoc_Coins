@@ -8,5 +8,7 @@ client_scripts {
 
 server_scripts {
     '@oxmysql/lib/MySQL.lua',
-    'server/**'
+    'server/Database.lua',
+    'server/main.lua',
+    'server/Functions.lua'
 }
